@@ -44,15 +44,15 @@ namespace ConsumerMicroservice.RepositoryLayer
         }
 
         // Delete Property
-        public bool DeleteProperty(int PropertyId)
-        {
-            Property property = _dbContext.Property.FirstOrDefault(x => x.PropertyId == PropertyId);
-            if (property != null)
-            {
-                _dbContext.Property.Remove(property);
-            }
-            return Save();
-        }
+        //public bool DeleteProperty(int PropertyId)
+        //{
+        //    Property property = _dbContext.Property.FirstOrDefault(x => x.PropertyId == PropertyId);
+        //    if (property != null)
+        //    {
+        //        _dbContext.Property.Remove(property);
+        //    }
+        //    return Save();
+        //}
 
         // return true if there is a insertion into database else false
         public bool PropertyExists(int PropertyId)

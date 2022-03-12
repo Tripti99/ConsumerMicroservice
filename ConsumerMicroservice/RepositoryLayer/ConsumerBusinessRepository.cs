@@ -43,15 +43,15 @@ namespace ConsumerMicroservice.RepositoryLayer
         }
 
         // delete business
-        public bool DeleteBusiness(int BusinessId)
-        {
-            Business business = _dbContext.Business.FirstOrDefault(x => x.BusinessId == BusinessId);
-            if (business != null)
-            {
-                _dbContext.Business.Remove(business);
-            }
-            return Save();
-        }
+        //public bool DeleteBusiness(int BusinessId)
+        //{
+        //    Business business = _dbContext.Business.FirstOrDefault(x => x.BusinessId == BusinessId);
+        //    if (business != null)
+        //    {
+        //        _dbContext.Business.Remove(business);
+        //    }
+        //    return Save();
+        //}
 
         // check if Business Id exicts
         public bool BusinessExists(int BusinessId)

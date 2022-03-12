@@ -5,7 +5,12 @@
       "ProjectGuid": "48f38abe-43c2-48af-ac31-1dc9ebc715e6",
       "DisplayName": "ConsumerMicroservice",
       "ColorIndex": 0
+    },
+    "d14408d2-8839-4132-b3cb-88f18d38c35e": {
+      "ProjectGuid": "d14408d2-8839-4132-b3cb-88f18d38c35e",
+      "DisplayName": "ConsumerMicroserviceTests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

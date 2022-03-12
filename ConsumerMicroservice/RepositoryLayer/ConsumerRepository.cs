@@ -25,15 +25,15 @@ namespace ConsumerMicroservice.RepositoryLayer
         }
 
          // Delete Consumer with Id
-        public bool DeleteConsumer(int ConsumerId)
-        {
-            Consumer consumer = _dbContext.Consumer.FirstOrDefault(x => x.ConsumerId == ConsumerId);
-            if (consumer != null)
-            {
-                _dbContext.Consumer.Remove(consumer);
-            }
-            return Save();
-        }
+        //public bool DeleteConsumer(int ConsumerId)
+        //{
+        //    Consumer consumer = _dbContext.Consumer.FirstOrDefault(x => x.ConsumerId == ConsumerId);
+        //    if (consumer != null)
+        //    {
+        //        _dbContext.Consumer.Remove(consumer);
+        //    }
+        //    return Save();
+        //}
 
         // Get Consumer by Id
         public Consumer GetConsumer(int ConsumerId)

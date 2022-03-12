@@ -13,7 +13,7 @@ namespace ConsumerMicroservice.RepositoryLayer.IRepositoryLayer
         Property GetProperties(int PropertyId);
         bool CreateProperty(Property property);
         bool UpdateProperty(int PropertyId, Property property);
-        bool DeleteProperty(int PropertyId);
+      //  bool DeleteProperty(int PropertyId);
         bool PropertyExists(int PropertyId);
         bool Save();
     }

@@ -13,7 +13,7 @@ namespace ConsumerMicroservice.RepositoryLayer.IRepositoryLayer
         Business GetBusinesss(int BusinessId);
         bool CreateBusiness(Business business);
         bool UpdateBusiness(int ConsumerId, Business business);
-        bool DeleteBusiness(int BusinessId);
+       // bool DeleteBusiness(int BusinessId);
         bool BusinessExists(int BusinessId);
         bool Save();
     }

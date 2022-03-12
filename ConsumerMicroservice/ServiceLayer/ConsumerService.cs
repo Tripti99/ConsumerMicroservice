@@ -45,20 +45,20 @@ namespace ConsumerMicroservice.ServiceLayer
             return _businessPropertyRepository.CreateProperty(property);
         }
 
-        public bool DeleteBusiness(int BusinessId)
-        {
-            return _consumerBusinessRepository.DeleteBusiness(BusinessId);
-        }
+        //public bool DeleteBusiness(int BusinessId)
+        //{
+        //    return _consumerBusinessRepository.DeleteBusiness(BusinessId);
+        //}
 
-        public bool DeleteConsumer(int ConsumerId)
-        {
-            return _consumerRepository.DeleteConsumer(ConsumerId);
-        }
+        //public bool DeleteConsumer(int ConsumerId)
+        //{
+        //    return _consumerRepository.DeleteConsumer(ConsumerId);
+        //}
 
-        public bool DeleteProperty(int PropertyId)
-        {
-            return _businessPropertyRepository.DeleteProperty(PropertyId);
-        }
+        //public bool DeleteProperty(int PropertyId)
+        //{
+        //    return _businessPropertyRepository.DeleteProperty(PropertyId);
+        //}
 
         public IEnumerable<BusinessMaster> GetBusinessMaster()
         {
